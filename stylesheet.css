@@ -1,0 +1,172 @@
+body{
+	
+	font-family: Verdana, Arial, san-serif;
+	background:#D580FF ;
+
+	color: #000000;
+} 
+header {
+  background-color: #FFFFFF;
+  font-family: ;
+ 
+}
+
+h1 {
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+h2 {
+  
+  font-family: Georgia, serif;
+  color: #000000;
+ border-bottom: solid 4px black;
+}
+
+
+nav{  
+	font-family:"Oswald", sans-serif;
+	font-weight: bold;
+	width: auto;
+	padding: 10px;
+	border-bottom: solid 4px black;
+	line-height: 20px;
+	
+
+
+}
+	
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+  padding: 5px;
+}
+nav a {
+  text-decoration: none;
+}
+
+nav a:link{
+  color: purple;
+}
+
+nav a:visited{
+  color: purple;
+ }
+
+nav a:hover{
+ color: blue;
+  }
+
+nav a:active{
+  color: violet;
+
+}
+h2{
+	font-family: Georgia, serif;
+	color: #000000;
+}
+dt{
+	font-weight: bold;
+	color: #002171;
+}
+
+}
+footer{
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+	margin-left:170px;
+}
+
+footer .fa{
+	font-size: 4em;
+	color: yellow;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+
+.home-hero{
+	height: 400px;
+	background-size: cover;
+    background-image: url(images/drop-of-water.jpg);
+    background-position: center;
+}
+.home-hero h1{
+	color: white;
+	text-shadow: 2px 2px black;
+}
+#resume-hero{
+	background-color: black;
+	height: 300px;
+    margin-left:170px;
+}
+
+main{
+    padding-right: 2em;
+    padding-left:  2em;
+    padding-top: 30px;
+    margin:0 auto;
+    max-width:1000px;
+
+}
+
+.home-photo{
+    float:right;
+    max-width:25%;
+    height: auto;
+    margin: 50px 0 10px 20px
+}
+.logo{
+   margin: 0 auto;
+   display:block;
+}
+
+
+blockquote{
+	background-color: #eeeeee;
+	border-inline: 10px solid gray;
+	padding: 30px;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden */
+
+h1{ 
+     font-size: 4em;
+ }
+
+
+/*CSS Adjustmennts for Tablets*/
+@media only screen and (max-width: 1024px) {
+h1{
+   font-size: 4em;
+  }
+
+}  
+
+
+.sevillana-regular {
+  font-family: "Sevillana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
