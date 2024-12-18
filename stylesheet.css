@@ -1,10 +1,16 @@
 body{
 	
-	font-family: Verdana, Arial, san-serif;
+	font-family:"Sevillana", serif;
 	background:#D580FF ;
 
 	color: #000000;
 } 
+.sevillana-regular {
+  font-family: "Sevillana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header {
   background-color: #FFFFFF;
   font-family: ;
@@ -142,7 +148,9 @@ h1{
      font-size: 4em;
  }
 
-
+.myButton:hover {
+    background-color: #45a049;   
+}
 /*CSS Adjustmennts for Tablets*/
 @media only screen and (max-width: 1024px) {
 h1{
@@ -152,11 +160,6 @@ h1{
 }  
 
 
-.sevillana-regular {
-  font-family: "Sevillana", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .mobile{
 	display:none;
